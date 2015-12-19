@@ -1,8 +1,6 @@
 # Lorem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/lorem`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is a super duper insanely simplistic gem that generates hipster lorem ipsum for no reason at all. Wee! Just a learning exercise for me to learn what creating gems is all about.
 
 ## Installation
 
@@ -22,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Just install (except you can't because it's local... :smile:), and bam - You have hipster lorem sentences at your fingertips just by calling:
+
+```ruby
+Lorem.ipsum
+```
 
 ## Development
 
@@ -32,7 +34,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/lorem.
+Bug reports and pull requests are welcome on GitHub at https://github.com/amlydu/lorem.
 
 
 ## License
