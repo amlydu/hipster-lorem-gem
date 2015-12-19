@@ -1,4 +1,4 @@
-# Lorem
+# Hipster Lorem :tophat:
 
 This is a super duper insanely simplistic gem that generates hipster lorem ipsum for no reason at all. Wee! Just a learning exercise for me to learn what creating gems is all about.
 
