@@ -41,3 +41,27 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/amlydu
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+## self.notes
+
+Used this [RailsCast](http://railscasts.com/episodes/245-new-gem-with-bundler) tutorial to learn moar about creating a gem with bundler.
+
+### Bash commands used in the tutorial:
+
+```
+$ bundle gem lorem
+$ gem build lorem.gemspec
+$ gem push lorem-0.0.1.gem
+$ bundle
+$ rake -T
+$ rake build
+$ rake install
+$ rake release
+```
+- The `gem build gem_name.gemspec` generates a new file `gem_name-version_number.gem`
+- Pushing the file pushes it to rubygems.org and publishes it for all the :earth_americas: to use
+- The `bundle gem lorem` assumes that you're using git; intializes a git repo
+- `gemspec` file is the :heart: of the gem
+  - File attributes are determined at runtime - automatically inherits behavior from the `.gitignore` file
+  - Loading version file constant from `lib/your_gem/version.rb`
+    - Change this value and republish gem when you're changing versions
+
